@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 
 import {HttpClientModule} from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { RegistrazioneDipendenteComponent } from './registrazione-dipendente/registrazione-dipendente.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RegistrazioneDipendenteComponent
   ],
   imports: [
     BrowserModule,
