@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class RegistrazioneDipendenteService {
 
-  private baseUrl : string = "http://localhost:8771/rest/api/registrazione-dipendenti";
+  private baseUrl : string = "http://localhost:8200/rest/api/registrazione-dipendenti";
 
   constructor(private http : HttpClient) { }
 
